@@ -9,7 +9,7 @@
 </head>
 <body>
 <main>
-    {{content | safe}}
+    {% block content %} {{ content | safe }} {% endblock %}
 </main>
 <footer>
     All rights reserved &reg;
